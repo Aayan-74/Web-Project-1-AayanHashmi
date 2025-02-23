@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <center><h1>Login to experience a new level of Basketball</h1><center>
+</head>
+<body>
+            <style>
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full screen height */
+            background-color: #be974f;
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+        }
+
+        /* Login container styling */
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #856161;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0b0b0b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="your-server-side-script" method="POST">
+            <label for="username\email"><b>email</b></label>
+            <input type="text" id="username\email" name="username\email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="Phone Number"><b>Number</b></label>
+            <input type="text" id="Phone Number" name="Phone Number">
+
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Example of an error message -->
+        <!-- <p class="error-message">Incorrect username or password</p> -->
+    </div>
+
+    </form>
+
+    <!-- Example of an error message -->
+    <!-- <p class="error-message">Incorrect username or password</p> -->
+</div>
+</body>
+</html>
